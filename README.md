@@ -1,12 +1,45 @@
-# React + Vite
+<h1 align="center">📝 MERN Stack Note Taking App ✨</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Demo App](/frontend/public/screenshot-for-readme.png)
 
-Currently, two official plugins are available:
+Highlights:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧱 Full-Stack App Built with the MERN Stack (MongoDB, Express, React, Node)
+- ✨ Create, Update, and Delete Notes with Title & Description
+- 🛠️ Build and Test a Fully Functional REST API
+- ⚙️ Rate Limiting with Upstash Redis — a Real-World Concept Explained Simply
+- 🚀 Completely Responsive UI
+- 🌐 Explore HTTP Methods, Status Codes & SQL vs NoSQL
+- 📦 Deployment Guide Included — Add the Live App to Your Resume
+- 📚 Designed for Absolute Beginners
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧪 .env Setup
+
+### Backend (`/backend`)
+
+```
+MONGO_URI=<your_mongo_uri>
+
+UPSTASH_REDIS_REST_URL=<your_redis_rest_url>
+UPSTASH_REDIS_REST_TOKEN=<your_redis_rest_token>
+
+NODE_ENV=development
+```
+
+## 🔧 Run the Backend
+
+```
+cd backend
+npm install
+npm run dev
+```
+
+## 💻 Run the Frontend
+
+```
+cd frontend
+npm install
+npm run dev
+```
